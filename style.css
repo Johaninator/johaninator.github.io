@@ -1,14 +1,39 @@
 html , body {
 	font-family: 'Montserrat',sans-serif;
+	background-image: url("https://googledrive.com/host/0B49O7YfDYh5vZDJjcURtM05UZVE");
+    background-color: #cccccc;
+}
+
+h5 {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	/*border-left: 5px solid #00f28f;*/
+	font-size: 20px;
+	font-weight: 400;
+	padding-left: 35px;
+	background-color: #e1eaea; 
+	/*border-radius: 10px;*/
+}
+
+.main {
+	margin-top: 80px;
+}
+
+
+html , body {
+	font-family: 'Montserrat',sans-serif;
 }
 
 .navbar {
 	padding: 10px;
-	background-color: #d6f5f5;
+	background-color: #e1eaea;
 }
 
 #brandname {
-	font-size:50px;
+	padding-left: 100px;
+	padding-right: 100px;
+	font-size:35px;
+	color:  #1f2e2e;
 }
 
 h1 {
@@ -47,18 +72,18 @@ form input {
 	padding: 20px;
 	width: 100%;
 
-	transition: background 2s, border-left 2s;
+	transition: background 0.5s, border-left 0.5s;
 }
 
 form input:focus {
 	background: #fff;
 	border-left: 2px solid #000;
-	box-shadow: none;
+	/*box-shadow: none;*/
 	outline: none;
 }
 
 button.btn {
-	background: transparent;
+/*	background: transparent;*/
 	border:none;
 	color: #00f28f;
 	cursor: pointer;
@@ -79,14 +104,19 @@ button.btn:hover{
 	padding-left: 0px;
 }
 
-comments.li {
+.comments.li {
 	padding-left: 20px;
 	border-left: 2px solid #000;
 	font-size:36px;
-	margin: 0 0 2px; 
+	margin: 0 0 36px; 
+}
+
+#navbarul {
+	border-right: 2px solid #000;	
 }
 
 li {
+	color: #000;
 	padding: 0px 20px 0px 20px;
 	border-left: 2px solid #000;
 	font-size:36px;
@@ -94,6 +124,6 @@ li {
 }
 
 a {
-	font-size:20px;
+	font-size:25px;
 
 }
