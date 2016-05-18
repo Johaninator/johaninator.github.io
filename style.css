@@ -87,10 +87,10 @@ comments.li {
 }
 
 li {
-	padding-left: 20px;
+	padding: 20px 0px 20px;
 	border-left: 2px solid #000;
 	font-size:36px;
-	margin: 0 0 5px; 
+	margin: 0 0 30px; 
 }
 
 a {
