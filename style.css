@@ -3,6 +3,7 @@ html , body {
 }
 
 .navbar {
+	padding: 10px;
 	background-color: #d6f5f5;
 }
 
@@ -89,5 +90,10 @@ li {
 	padding-left: 20px;
 	border-left: 2px solid #000;
 	font-size:36px;
-	margin: 0 0 36px; 
+	margin: 0 0 5px; 
+}
+
+a {
+	font-size:20px;
+
 }
