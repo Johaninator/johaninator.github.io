@@ -70,6 +70,13 @@ button.btn:hover{
 	padding-left: 0px;
 }
 
+comments.li {
+	padding-left: 20px;
+	border-left: 2px solid #000;
+	font-size:36px;
+	margin: 0 0 2px; 
+}
+
 li {
 	padding-left: 20px;
 	border-left: 2px solid #000;
